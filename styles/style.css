@@ -1,0 +1,41 @@
+/* Google Fonts */
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/*  Reset Default Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+       /* Navbar Styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.logo{
+    /* width: 140; */
+    margin-top: 16px;
+}
+nav ul {
+    display: flex;
+     list-style: none;
+    gap: 32px;
+    /* padding: ; */
+}
+.menu a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
